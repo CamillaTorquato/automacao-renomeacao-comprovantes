@@ -2,7 +2,7 @@ import fitz
 import re
 from pathlib import Path
 
-PASTA = r"C:\Users\camil\OneDrive\Área de Trabalho\RENOMEAÇÃO\ilovepdf_split"
+PASTA = r"C:\Users\camilla\OneDrive\Área de Trabalho\RENOMEAÇÃO\pasta-pdfs"
 
 for arquivo in Path(PASTA).glob("*.pdf"):
 
